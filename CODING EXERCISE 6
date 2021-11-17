@@ -1,0 +1,14 @@
+package selfProgramming;
+
+public class RelationalLogicalOpTest3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double d1 = 2.2 + 4.4;
+		double d2 = 6.6;
+		int d3 = 2 + 4;
+		int d4 = 6;
+		
+		
+		System.out.println(d1 == d2); //false because double cannot use operator ==
+		System.out.println(d3 == d4);
